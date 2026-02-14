@@ -1,5 +1,3 @@
-import time
-
 class Process:
     def __init__(self, pid, priority, burst_time, arrival_time, IO_start_time=None, IO_waiting_time=None):
         self.pid = pid
